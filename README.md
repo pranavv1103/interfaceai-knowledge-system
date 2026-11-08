@@ -42,7 +42,7 @@ Every non-abstaining answer has `Source` entries containing the original URL, sn
 Requirements: Python 3.9 or newer. Runtime dependencies: Python standard library only.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/pranavv1103/interfaceai-knowledge-system.git
 cd interfaceai-knowledge-system
 python3 -m venv .venv
 source .venv/bin/activate
