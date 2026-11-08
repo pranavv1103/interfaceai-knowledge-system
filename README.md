@@ -92,7 +92,7 @@ Measured locally with the supplied harness, public 40-question set, and no LLM j
 | Current implementation | 0.969 | 40 questions; zero harness errors or stale-trap hits |
 | Supplied self-test | 1.000 | 5 questions; conflict F1 and resolution accuracy both 1.000 |
 
-On the current public run, p50 answer latency was 0.04 s, p95 was 0.11 s, and the maximum was 0.20 s. Repeat and paraphrase consistency were both 1.000. The remaining zero-scored public item asks for all certificate rates but has an empty `must_include` list; the supplied deterministic scorer assigns zero when that list is empty unless its optional LLM judge is enabled. The answer itself lists the 12 certificate terms and their rates/APYs from the current snapshot.
+On the latest public run, p50 answer latency was 0.04 s, p95 was 0.09 s, and the maximum was 0.17 s. Repeat and paraphrase consistency were both 1.000. The remaining zero-scored public item asks for all certificate rates but has an empty `must_include` list; the supplied deterministic scorer assigns zero when that list is empty unless its optional LLM judge is enabled. The answer itself lists the 12 certificate terms and their rates/APYs from the current snapshot.
 
 These are practice-set results, not a claim about the hidden evaluation.
 
